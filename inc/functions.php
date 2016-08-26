@@ -499,7 +499,7 @@ function spacious_footer_copyright() {
 	$default_footer_value = sprintf( __( 'Copyright &copy; %1$s %2$s.', 'spacious' ), date( 'Y' ), $site_link ).' '.sprintf( __( 'Powered by %s.', 'spacious' ), $wp_link ).' '.sprintf( __( 'Theme: %1$s by %2$s.', 'spacious' ), 'Spacious', $tg_link );
 
 	$spacious_footer_copyright = '<div class="copyright">'.$default_footer_value.'</div>';
-	echo $spacious_footer_copyright;
+	#echo $spacious_footer_copyright;
 }
 endif;
 
