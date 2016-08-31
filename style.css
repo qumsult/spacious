@@ -640,7 +640,7 @@ li.default-menu {
 	border-top: 1px solid #00A151;
 	top: 45px;
 	left: 25px;
-	width: 150px;
+	width: 170px;
 }
 .main-navigation ul li ul li {
 	float: none;
@@ -666,7 +666,7 @@ li.default-menu {
 	color: #00A151;
 }
 .main-navigation ul li ul li ul {
-	left: 150px;
+	left: -170px;
 	top: -1px;
 }
 .main-navigation select {
